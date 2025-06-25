@@ -4,7 +4,7 @@ Untuk melihat cara kerja project ini, silakan klik URL berikut:
 - **Versi**: 1.0.0
 - **Terakhir Diperbarui**: 25 Juni 2025
 
-Berikut adalah langkah-langkah instalasi proyek pada lokal berdasarkan instruksi yang diberikan:
+Berikut adalah langkah-langkah instalasi proyek pada lokal:
 
 1. **Pastikan Node.js Terinstal**  
    - Periksa apakah Node.js sudah terinstal di komputer Anda dengan menjalankan perintah berikut di terminal:  
