@@ -1,5 +1,5 @@
 const axios = require('axios');
-const apiKey = '';
+const API_KEY = 'YOUR_BINDERBYTE_API_KEY';
 
 exports.getCourierList = (req, res) => {
   const couriers = [
@@ -44,7 +44,7 @@ exports.trackCourier = async (req, res) => {
     });
   }
 
-  const url = `https://api.binderbyte.com/v1/track?api_key=${apiKey}&courier=${courier}&awb=${awb}`;
+  const url = `https://api.binderbyte.com/v1/track?api_key=${API_KEY}&courier=${courier}&awb=${awb}`;
 
   try {
     const response = await axios.get(url, { timeout: 10000 });
